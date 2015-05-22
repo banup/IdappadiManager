@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">IdappadiManager</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Sync">Sync</string>
+    <string name="title">Businesses</string>
+    <string name="plus">"+"</string>
+    <string name="addbusiness">"Add Business"</string>
+    <string name="business">"Business"</string>
+
+    <string name="hintBusinessName">"Enter Business's Name"</string>
+    <string name="businessAddress">"Business Address"</string>
+    <string name="hintBusinessAddress">"Enter Business's Address"</string>
+    <string name="businessCity">"Business City"</string>
+    <string name="hintBusinessCity">"Enter Business's City"</string>
+    <string name="businessState">"Business State"</string>
+    <string name="hintBusinessState">"Enter Business's State"</string>
+    <string name="businessCountry">"Business Country"</string>
+    <string name="hintBusinessCountry">"Enter Business's Country"</string>
+    <string name="businessPhone">"Business Phone"</string>
+    <string name="hintBusinessPhone">"Enter Business's Phone"</string>
+    <string name="businessContact">"Business Contact"</string>
+    <string name="hintBusinessContact">"Enter Business's Contact"</string>
+    <string name="businessCatalog">"Business Catalog"</string>
+    <string name="hintBusinessCatalog">"Enter Business's Catalog"</string>
+    <string name="save">"Save"</string>
+    <string name="cancel">"Cancel"</string>
+    <string name="addbusinessactivitylabel">"Add Business Activity"</string>
+</resources>
+

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    android:orientation="vertical"
+    android:paddingTop="1dp" >
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cc0000"
+        android:padding="5dp"
+        android:text="@string/addbusiness"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="75dp"
+            android:layout_height="33dp"
+            android:text="@string/save"
+            android:onClick="addNewBusiness" />
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_toRightOf="@+id/btnadd"
+            android:text="@string/cancel"
+            android:onClick="cancelAddBusiness" />
+
+    </LinearLayout>
+
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+<!--
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/business" />
+
+            <EditText
+                android:id="@+id/businessName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:ems="10" android:hint="@string/hintBusinessName">
+
+                <requestFocus />
+            </EditText>
+-->
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#ffffff"
+                android:layout_marginRight="129dp"
+                android:layout_marginEnd="129dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/businessname"
+                    android:hint="@string/hintBusinessName"
+                    />
+
+                <EditText
+                    android:id="@+id/businessaddress"
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress"
+                    android:ems="10"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@+id/businessname"
+                    android:layout_alignEnd="@+id/businessname"
+                    android:layout_marginRight="130dp"
+                    android:layout_marginEnd="130dp"
+                    android:hint="@string/hintBusinessAddress">
+                    <requestFocus/>
+                </EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/businesscity"
+                    android:hint="@string/hintBusinessCity"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/businessstate"
+                    android:hint="@string/hintBusinessState"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/businesscountry"
+                    android:hint="@string/hintBusinessCountry"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:id="@+id/businessphone"
+                    android:layout_gravity="right"
+                    android:hint="@string/hintBusinessPhone"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/hintBusinessContact"
+                    android:ems="10"
+                    android:id="@+id/businesscontact"
+                    android:layout_gravity="center_horizontal" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="126dp"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/businesscatalog"
+                    android:hint="@string/hintBusinessCatalog"/>
+
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
